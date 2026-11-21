@@ -1,0 +1,352 @@
+[gd_scene format=3 uid="uid://cgpqldl0lj1ko"]
+
+[ext_resource type="PackedScene" uid="uid://twtouv3510a0" path="res://Assets/Models/pawn.glb" id="1_jjgbg"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jjvhh"]
+albedo_color = Color(0.39763224, 0.27396592, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bo1nx"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8gbba"]
+albedo_color = Color(0.7048692, 0.77871835, 0.79550487, 1)
+
+[node name="Main" type="Node3D" unique_id=1020819604]
+
+[node name="Board" type="Node3D" parent="." unique_id=1479102921]
+
+[node name="base" type="CSGBox3D" parent="Board" unique_id=1658449219]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.006, 0)
+material_override = SubResource("StandardMaterial3D_jjvhh")
+size = Vector3(0.43, 0.012, 0.43)
+
+[node name="a1" type="CSGBox3D" parent="Board" unique_id=1785259313]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.175, -0.001048584, 0.175)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="a2" type="CSGBox3D" parent="Board" unique_id=1826568170]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.175, -0.001, 0.125)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="a3" type="CSGBox3D" parent="Board" unique_id=221206641]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.175, -0.001, 0.075)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="a4" type="CSGBox3D" parent="Board" unique_id=1303514129]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.175, -0.001, 0.025)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="a5" type="CSGBox3D" parent="Board" unique_id=1890924444]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.175, -0.001, -0.025)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="a6" type="CSGBox3D" parent="Board" unique_id=526190204]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.175, -0.001, -0.075)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="a7" type="CSGBox3D" parent="Board" unique_id=581034458]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.175, -0.001, -0.125)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="a8" type="CSGBox3D" parent="Board" unique_id=598902248]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.175, -0.001, -0.175)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="b1" type="CSGBox3D" parent="Board" unique_id=24841877]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.125, -0.001048584, 0.175)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="b2" type="CSGBox3D" parent="Board" unique_id=2072671131]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.125, -0.001, 0.125)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="b3" type="CSGBox3D" parent="Board" unique_id=1065948831]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.125, -0.001, 0.075)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="b4" type="CSGBox3D" parent="Board" unique_id=1929811318]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.125, -0.001, 0.025)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="b5" type="CSGBox3D" parent="Board" unique_id=449919699]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.125, -0.001, -0.025)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="b6" type="CSGBox3D" parent="Board" unique_id=2123530637]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.125, -0.001, -0.075)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="b7" type="CSGBox3D" parent="Board" unique_id=594356444]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.125, -0.001, -0.125)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="b8" type="CSGBox3D" parent="Board" unique_id=934132708]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.125, -0.001, -0.175)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="c1" type="CSGBox3D" parent="Board" unique_id=286609234]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.075, -0.001048584, 0.175)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="c2" type="CSGBox3D" parent="Board" unique_id=813745423]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.075, -0.001, 0.125)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="c3" type="CSGBox3D" parent="Board" unique_id=2961607]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.075, -0.001, 0.075)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="c4" type="CSGBox3D" parent="Board" unique_id=1358514575]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.075, -0.001, 0.025)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="c5" type="CSGBox3D" parent="Board" unique_id=951332376]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.075, -0.001, -0.025)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="c6" type="CSGBox3D" parent="Board" unique_id=934180737]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.075, -0.001, -0.075)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="c7" type="CSGBox3D" parent="Board" unique_id=388718884]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.075, -0.001, -0.125)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="c8" type="CSGBox3D" parent="Board" unique_id=1340473405]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.075, -0.001, -0.175)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="d1" type="CSGBox3D" parent="Board" unique_id=1340502474]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.025, -0.001048584, 0.175)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="d2" type="CSGBox3D" parent="Board" unique_id=1393589509]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.025, -0.001, 0.125)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="d3" type="CSGBox3D" parent="Board" unique_id=2002991229]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.025, -0.001, 0.075)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="d4" type="CSGBox3D" parent="Board" unique_id=945183210]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.025, -0.001, 0.025)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="d5" type="CSGBox3D" parent="Board" unique_id=1969779088]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.025, -0.001, -0.025)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="d6" type="CSGBox3D" parent="Board" unique_id=1247307142]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.025, -0.001, -0.075)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="d7" type="CSGBox3D" parent="Board" unique_id=579380932]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.025, -0.001, -0.125)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="d8" type="CSGBox3D" parent="Board" unique_id=1304693359]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.025, -0.001, -0.175)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="e1" type="CSGBox3D" parent="Board" unique_id=761401824]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.025, -0.001048584, 0.175)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="e2" type="CSGBox3D" parent="Board" unique_id=546382352]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.025, -0.001, 0.125)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="e3" type="CSGBox3D" parent="Board" unique_id=1067418368]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.025, -0.001, 0.075)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="e4" type="CSGBox3D" parent="Board" unique_id=1577509333]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.025, -0.001, 0.025)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="e5" type="CSGBox3D" parent="Board" unique_id=1495416373]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.025, -0.001, -0.025)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="e6" type="CSGBox3D" parent="Board" unique_id=806762079]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.025, -0.001, -0.075)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="e7" type="CSGBox3D" parent="Board" unique_id=792205234]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.025, -0.001, -0.125)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="e8" type="CSGBox3D" parent="Board" unique_id=457648819]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.025, -0.001, -0.175)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="f1" type="CSGBox3D" parent="Board" unique_id=445267247]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.075, -0.001048584, 0.175)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="f2" type="CSGBox3D" parent="Board" unique_id=353140145]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.075, -0.001, 0.125)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="f3" type="CSGBox3D" parent="Board" unique_id=29488034]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.075, -0.001, 0.075)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="f4" type="CSGBox3D" parent="Board" unique_id=428757555]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.075, -0.001, 0.025)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="f5" type="CSGBox3D" parent="Board" unique_id=439241321]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.075, -0.001, -0.025)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="f6" type="CSGBox3D" parent="Board" unique_id=1866459486]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.075, -0.001, -0.075)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="f7" type="CSGBox3D" parent="Board" unique_id=1838703781]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.075, -0.001, -0.125)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="f8" type="CSGBox3D" parent="Board" unique_id=747623806]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.075, -0.001, -0.175)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="g1" type="CSGBox3D" parent="Board" unique_id=977682538]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.125, -0.001048584, 0.175)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="g2" type="CSGBox3D" parent="Board" unique_id=731644175]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.125, -0.001, 0.125)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="g3" type="CSGBox3D" parent="Board" unique_id=1169445309]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.125, -0.001, 0.075)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="g4" type="CSGBox3D" parent="Board" unique_id=1603314749]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.125, -0.001, 0.025)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="g5" type="CSGBox3D" parent="Board" unique_id=24542375]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.125, -0.001, -0.025)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="g6" type="CSGBox3D" parent="Board" unique_id=1906024615]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.125, -0.001, -0.075)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="g7" type="CSGBox3D" parent="Board" unique_id=551888897]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.125, -0.001, -0.125)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="g8" type="CSGBox3D" parent="Board" unique_id=193369503]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.125, -0.001, -0.175)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="h1" type="CSGBox3D" parent="Board" unique_id=98616325]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.175, -0.001048584, 0.175)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="h2" type="CSGBox3D" parent="Board" unique_id=1393097073]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.175, -0.001, 0.125)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="h3" type="CSGBox3D" parent="Board" unique_id=492438209]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.175, -0.001, 0.075)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="h4" type="CSGBox3D" parent="Board" unique_id=1279645884]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.175, -0.001, 0.025)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="h5" type="CSGBox3D" parent="Board" unique_id=154655720]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.175, -0.001, -0.025)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="h6" type="CSGBox3D" parent="Board" unique_id=1909879700]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.175, -0.001, -0.075)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="h7" type="CSGBox3D" parent="Board" unique_id=1551525387]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.175, -0.001, -0.125)
+material_override = SubResource("StandardMaterial3D_8gbba")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="h8" type="CSGBox3D" parent="Board" unique_id=636894635]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.175, -0.001, -0.175)
+material_override = SubResource("StandardMaterial3D_bo1nx")
+size = Vector3(0.05, 0.0077055665, 0.05)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=91581001]
+transform = Transform3D(1, 0, 0, 0, 0.49716192, 0.86765784, 0, -0.86765784, 0.49716192, 0, 0.2703961, 0.21809107)
+far = 10.0
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1813579589]
+transform = Transform3D(0.14644663, -0.8535534, 0.50000006, 0.50000006, 0.50000006, 0.7071067, -0.8535534, 0.14644663, 0.50000006, 0, 2.231214, 2.1019473)
+shadow_enabled = true
+shadow_bias = 0.05
+
+[node name="pawn" parent="." unique_id=25155543 instance=ExtResource("1_jjgbg")]
